@@ -55,8 +55,9 @@
             <header className="bg-white/80 backdrop-blur-md shadow-md sticky top-0 z-50">
                 <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="flex items-center justify-between h-16">
-                        <button onClick={() => onNavClick('home')} className="text-2xl font-bold text-gray-800 hover:text-blue-600 transition-colors">
-                            HM-KIM210's Blog
+                        <button onClick={() => onNavClick('home')} className="flex items-center text-2xl font-bold text-gray-800 hover:text-blue-600 transition-colors">
+                            <img src="blog_logo.png" alt="블로그 로고" className="h-10 mr-3" />
+                            <span>HM-KIM210's Blog</span>
                         </button>
                         <nav className="hidden md:flex space-x-8">
                             <button onClick={() => onNavClick('home')} className="font-medium text-gray-600 hover:text-blue-500 transition-colors">홈</button>
@@ -278,3 +279,4 @@
     </script>
 </body>
 </html>
+
